@@ -12,13 +12,14 @@
  - Run `php artisan serve` to start application
 
  > Using a REST Client i.e Postman. Connect to the application and register. Endpoint should be in this form (http://localhost:8000/api/register)
- Parameters are
+
+ ## Parameters are
  - email
  - password
  - name
  > Login with {email, password} and a token will be generated.
  > Communicate with the API using the token as a Bearer Token.
 
- HEADERS
-  Accept           application/json
-  Authorization    Bearer generated_token_after_login
+ ### HEADERS
+  - Accept           application/json
+  - Authorization    Bearer generated_token_after_login
